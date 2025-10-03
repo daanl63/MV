@@ -1,0 +1,42 @@
+pt:
+  - name: Ben
+    role: CEO & CTO | Co-Founder
+    bio:  Ben is the creator of Modelverse, driven by a passion for turning strategy into action. With over 25 years at Shell and later as a partner at KPMG, Ben helped organizations navigate complex challenges across transformation, risk, and technology. He holds a PhD in theoretical physics and once explored black holes at Imperial College London—before diving into the world of business. 
+    img:  WWW%20Ben%20K%20-%20380.png
+
+  - name: Reshma
+    role: Partner | Co-Founder
+    bio:  Reshma brings deep expertise in strategic information management and cybersecurity, with a clear, structured approach to tackling complex challenges. Reshma held a variety of IT leadership an Security roles across international corporates and the energy sector. She holds an MSc in Applied Physics and an executive MSc in Cyber Security.
+    img:  WWW%20Reshma%20PM%20-%20380.png
+
+  - name: Daan
+    role: CFO & COO | Co-Founder
+    bio:  Daan is an experienced entrepreneur and IT leader who’s passionate about using modern technology to help organizations tackle real-world challenges. Daan brings broad insight as a strategist, investor, and trusted cybersecurity advisor. He holds a PhD and MSc in Computing Science, along with an executive MSc in Cyber Security.
+    img:  WWW%20Daan%20L%20-%20380.png
+
+  - name: Lili
+    role: Partner | CISO 
+    bio:  Lili is a governance expert with deep experience in health, cybersecurity and patient safety. Before becoming a partner, Lili spent 12 years at the Dutch Ministry of Health, working on organ donation, e-health, and cybersecurity. She holds a Cum Laude BSc in Biomedical Science, a Cum Laude MSc in Neuroscience, and a Summa Cum Laude MSc in Cyber Security Governance.
+    img:  WWW%20Lili%20G%20-%20380.png
+
+ext:
+  - name: Bozhena
+    role: Office Manager
+    bio:  Bozhena smoothly runs the back-office, always friendly, accessible, and business-smart.
+    img:  WWW%20Bozhena%20new.jpg
+
+  - name : Mariona
+    role: Risk Consultant  
+    bio:  Mariona researches, interprets, structures and creates cybersecurity risk models and ESG models for enterprise clients.
+    img:  WWW%20Mariona%20new.png
+
+  - name: Sylvia
+    role: Community & Project Manager
+    bio:  Sylvia builds strong connections with users, delivers results and translates feedback into value.
+
+  - name: Sjors
+    role: Risk Consultant & Security Engineer
+    bio:  Sjors is focused on risk management and platform improvements using cloud services and security infrastructure.
+    img:  WWW%20Sjors.jpeg
+    
+

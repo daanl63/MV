@@ -1,0 +1,32 @@
+---
+title: Customer Cases
+---
+
+  {% include hero.html caption='Customer Cases' message='Discover how we\'ve helped our clients innovate and grow.'%}
+  
+  
+  {% include testimonial.html message='Reshma and Team has helped us to close our security gaps.' who='Christiaan Rood, CEO, LeydenJar Technologies' 
+    url='https://www.youtube.com/embed/KO0yNnQ8zbQ?si=igoXFpTw680wUB0z&amp;start=3"'
+  %}
+  
+<section class="features">
+  <div class="container">
+    <div class="feature">
+      {% for customer in site.data.customers %}
+      <div class="case-section" {%if forloop.last%} style="border-bottom: 0px;" {%endif%}>
+        <div class="case-logo">
+          <img src="{{customer.logo}}" alt="{{customer.name}} logo" />
+        </div>
+        <div class="case-content">
+          <h2><a href="{{customer.url}}">{{customer.name}}</a></h2>
+          <p>{{customer.about}}</a></p>
+          <br/>
+          <p>{{customer.case}}</p>
+        </div>
+      </div>  
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+

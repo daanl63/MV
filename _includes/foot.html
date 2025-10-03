@@ -1,0 +1,14 @@
+
+ <footer>
+    <div class="container">
+      <p>&copy; {{ site.dob }} - {{ site.time | date: '%Y' }}. {{ site.company }} | CoC {{ site.coc-number }} - All rights reserved ({{ site.time | in_time_zone: site.timezone |  date: '%H:%M' }}).</p>
+   <br>
+      <a href="contact.html" title="Contact Us" style="text-decoration: none;">
+      <i class="fa-regular fa-address-card fa-2x"></i>
+      </a>
+    &nbsp;
+      <a href="{{ site.linkedinurl }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+      <i class="fa-brands fa-linkedin fa-2x"></i>
+    </a>
+    </div>
+  </footer>

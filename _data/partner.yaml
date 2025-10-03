@@ -1,0 +1,56 @@
+am:
+  - name: Jan-Willem Klerkx
+    role: Investor
+    bio:  
+    img: 
+    linkedin: https://www.linkedin.com/in/jwklerkx/
+    
+  - name: Chris Hazewinkel
+    role: Business Partner NL
+    bio:  
+    img:  
+    linkedin: https://www.linkedin.com/in/chrishazewinkel/
+    
+  - name: Lars de Jong
+    role: Business Partner NL
+    bio:  
+    img: 
+    linkedin: https://www.linkedin.com/in/lars-dejong/
+    
+  - name: Gordon Muehl
+    role:  Business Partner DE
+    bio:  
+    img:  
+    linkedin: https://www.linkedin.com/in/gordonmuehl/de?originalSubdomain=de
+
+  - name: Robert Bals
+    role: Auditor
+    bio:
+    img:
+    linkedin: https://www.linkedin.com/in/rbals/
+    
+pc:
+  - name: CREDS
+    role: Pentesting Partner
+    bio:  
+    img:  
+    linkedin: 
+    
+  - name : PLTFRM
+    role: Digital Services  
+    bio:  
+    img:  
+    linkedin:
+    
+  - name: HSD
+    role: Innovation Center
+    bio:  
+    img: 
+    linkedin:
+
+  - name: Microsoft
+    role: SaaS provider
+    bio:
+    img:
+    linkedin:
+    

@@ -1,0 +1,5 @@
+- name: Ambassadors
+  key: am
+- name: Partner Companies
+  key: pc
+  

@@ -1,0 +1,14 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+timezone: "Europe/Amsterdam"
+dob: "2023"
+company: "Modelverse B.V."
+coc-number: "89447476" 
+deployurl: "https://modelverse.online"
+linkedinurl:  "https://nl.linkedin.com/company/valuetracks-services-bv"
+email: "partners@modelverse.online"
+label: "MV"

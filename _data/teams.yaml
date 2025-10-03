@@ -1,0 +1,5 @@
+- name: Partner Team
+  key: pt
+- name: Extended Team
+  key: ext
+  

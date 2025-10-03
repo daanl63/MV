@@ -1,0 +1,13 @@
+<section class="testimonial">
+    <div class="container">
+      {% if include.url %}
+      <div class = "video-container">
+        <iframe class="responsive-iframe" src="{{include.url}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      {% endif %}
+      <blockquote>
+        <p>{{ include.message }}</p>
+        <cite>–{{ include.who }}</cite>
+      </blockquote>
+    </div>
+</section>

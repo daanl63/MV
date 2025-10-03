@@ -1,0 +1,53 @@
+- name: Fellowmind
+  about: Fellowmind is one of the largest Microsoft integrators in western Europe active in the Netherlands, Poland, Denmark, Sweden and Finland.
+  case: Modelverse is used to support the security strategy and manage all information risks across the regions. Additionally, data privacy processes are supported and a Continuous Improvement program is on its way to execute the security strategy.
+  logo: assets/images/logo-FM.svg
+  url: https://www.fellowmind.com/
+
+- name: Province Flevoland
+  about: The Province of Flevoland is the twelfth and newest province of the Netherlands, established in 1986, when the southern and eastern Flevopolders, together with the Noordoostpolder, were merged into one provincial entity.
+  case: We are piloting Modelverse for Flevoland to improve risk management, increasing effectiveness of the implemented cybersecurity measures and to save time for the CISO team, the IT team, the OT team and the data privacy team.
+  logo: assets/images/logo-Flevo.svg
+  url:  https://www.flevoland.nl/
+
+- name: PharmaPartners
+  about: Pharmapartners is a leading provider of healthcare systems in the Netherlands. They provide during 40 years key IT systems for General Practitioners and public pharmacies.
+  case: We are supporting PharmaPartners with a strategic cyber security plan and a plan for addressing patient safety.
+  logo: assets/images/logo-PP.svg
+  url:  https://www.pharmapartners.nl/
+
+- name: Thebe
+  about: Thebe provides district nursing, specialist care, home support and day care in 19 municipalities in West and Central Brabant. They also provide care in 25 residential care centres in the region.
+  case: Modelverse is being piloted for Digital Risk Management.
+  logo: assets/images/logo-thebe.svg
+  url:  https://www.thebe.nl/
+
+- name: 1801
+  about: 1801 is dedicated to collaborate with education and youth care. They support pupils, students, educational professionals and schools in the Netherlands.
+  case: Modelverse is used to manage Information Security and saving substantial team and effort of the CISO team.
+  logo: assets/images/logo-1801.svg
+  url:  https://1801.nl/ 
+
+- name: NPI
+  about: The NPi is the Dutch training provider for physiotherapists. They support paramedical professionals in 'lifelong learning' with courses, training, webinars, e-learning and scientific information services.
+  case: NPI are using Modelverse to manage all information. Compliance is managed using security policies functionality. This way policies are maintained and published to all staff.
+  logo: assets/images/logo-npi.svg
+  url:  https://www.npi.nl/
+
+- name: Nedato
+  about: Nedato is the largest Dutch coorperative of potato farmers. They act as a wholesaler connecting potato farmers with the fried potatoes processing industry.
+  case: Nedato is using the Digital Risk Management functionality of Modelverse.
+  logo: assets/images/logo-nedato.svg
+  url:  https://nedato.nl/
+
+- name: NewForrest Fingerfood
+  about: NewForrest Fingerfood is a Dutch company that specializes in producing frozen finger foods, mini snacks, and appetizers for both retail and food service markets.
+  case: NewForrest is using the Digital Risk Management functionality of Modelverse.
+  logo: assets/images/logo-nfff.svg
+  url:  https://newforrest.nl/
+
+- name: LeydenJar Technology
+  about: LeydenJar Technology is a scale up that developed a high-performing pure Silicon anode for batteries, boosting the energy of batteries by 50%. They are developing their first production plant in the Eindhoven region.
+  case: We helped LeydenJar to protect its Intellectual Propeprty of their core technology using Modelverse.
+  logo: assets/images/logo-LJT.svg
+  url:  https://leyden-jar.com/

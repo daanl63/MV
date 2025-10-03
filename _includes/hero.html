@@ -1,0 +1,9 @@
+ <section class="hero">
+    <div class="container">
+      <h2>{{ include.caption }}</h2>
+      <p>{{ include.message }}</p>
+      {% if include.url %}
+       <a href='{{include.url}}' class="btn">{{include.txt}}</a>
+      {% endif%}
+    </div>
+</section>

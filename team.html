@@ -1,0 +1,39 @@
+---
+title: Team
+---
+  
+{% include hero.html caption="Meet the Team" 
+                       message="The passionate individuals driving Customer Success at ValueTracks Services."
+%}
+
+  {% for team in site.data.teams %}
+    
+  <section class="team-section">
+    <div class="container">
+        &nbsp;
+        <center><h2>{{team.name}}</h2></center>
+        &nbsp;
+    
+    <div class="team-grid">
+      
+    {% for member in site.data.team[team.key] %} 
+    <div class="team-member">
+   
+    {% if member.img %}
+      <img src="./assets/images/{{member.img}}" alt="{{member.name}}" />
+    {% else %}
+      {% include anonymous-svg.md %}
+    {% endif %}
+      <h3>{{ member.name }}</h3>
+      <p><i>{{ member.role }}</i>. {{ member.bio }}</p>
+    
+    </div>
+    {% endfor %}
+        
+    </div>
+    </div>  
+  </section> 
+  {% endfor %}
+
+  <br/>
+  
