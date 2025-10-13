@@ -38,5 +38,10 @@ ext:
     role: Risk Consultant & Security Engineer
     bio:  Sjors is focused on risk management and platform improvements using cloud services and security infrastructure.
     img:  WWW%20Sjors.jpeg
+
+  - name: Matei
+    role: Platform Developer
+    bio:  Matei helps develop and maintain the cybersecurity platform.
+    
     
 
