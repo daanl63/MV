@@ -24,7 +24,7 @@ jobs:
        bundle install
 
    - name: Build Jekyll site
-     run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}/MV"
+     run: bundle exec jekyll build
 
    - name: Deploy to Firebase
      uses: FirebaseExtended/action-hosting-deploy@v0
