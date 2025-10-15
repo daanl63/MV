@@ -31,7 +31,7 @@ jobs:
      with:
        repoToken: "${{ secrets.GITHUB_TOKEN }}"
        firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MV_NEXT }}"
-       channelId: beta
        projectId: mv-next
-       target: mv-next-prod
+       target: staging
+       
        
