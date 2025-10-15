@@ -1,17 +1,34 @@
 {
-  "hosting": {
-    "public": "_site",
-    "target": "mv-next-prod",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+    "hosting": [
+    {
+        "public": "_site",
+        "target": "prod", 
+        "ignore": [
+            "firebase.json",    
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    },
+    {
+        "public": "_site",
+        "target": "staging",
+        "ignore": [
+            "firebase.json",    
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+  ]
 }
