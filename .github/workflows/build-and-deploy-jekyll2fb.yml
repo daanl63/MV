@@ -1,4 +1,4 @@
-name: Build Jekyll & Deploy to Firebase (beta)
+name: Build Jekyll & Deploy to Firebase (live)
 
 on:
  push:
