@@ -26,6 +26,15 @@ jobs:
    - name: Build Jekyll site
      run: bundle exec jekyll build
 
+   - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22.x
+          cache: 'npm'
+
+   - name: Install dependencies
+        run: npm ci
+
    - name: Deploy to Firebase
      uses: FirebaseExtended/action-hosting-deploy@v0
      with:
