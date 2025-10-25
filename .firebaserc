@@ -1,16 +1,5 @@
 {
-  "projects": {},
-  "targets": {
-    "mv-next": {
-      "hosting": {
-        "staging": [
-          "mv-next"
-        ],
-        "prod": [
-          "mv-next-prod"
-        ]
-      }
-    }
-  },
-  "etags": {}
+  "projects": {
+    "default":  "mv-next"
+  }
 }
