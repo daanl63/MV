@@ -1,4 +1,4 @@
-name: Deploy Jekyll to Firebase
+name: Build Jekyll & Deploy to Firebase (beta)
 
 on:
  push:
@@ -11,7 +11,7 @@ jobs:
 
    steps:
    - name: Checkout repo
-     uses: actions/checkout@v3
+     uses: actions/checkout@v4
 
    - name: Setup Ruby
      uses: ruby/setup-ruby@v1
@@ -26,13 +26,10 @@ jobs:
    - name: Build Jekyll site
      run: bundle exec jekyll build
 
-   - name: Deploy to Firebase
+   - name: Deploy to Firebase beta channel
      uses: FirebaseExtended/action-hosting-deploy@v0
      with:
        repoToken: "${{ secrets.GITHUB_TOKEN }}"
        firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
        projectId: mv-next
-       channelID: beta-MV
-       
-       
-       
+       channelID: live
